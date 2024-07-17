@@ -13,7 +13,7 @@
   }
 body{
     /* background-color: rgba(0, 0, 0, 0.95); */
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(12, 12, 12);
 }
 header{
     max-width: 80%;
@@ -151,9 +151,51 @@ header{
     margin-top: 50px;
 }
 
+.mile-section{
+    max-width: 80%;
+    margin: 50px auto;
+}
+.mile-container{
+    /* border: 1PX solid white; */
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    /* justify-content: space-between; */
+    padding: 50px;
+}
+.mile-content h2{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.mile-content p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-join{
+    border: none;
+    border-radius: 9px;
+    padding: 13px 40px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+}
+.mile-img img{
+    width: 100%;
+    border-radius: 8px;
+}
+
 /* responsive section starts here...  */
 @media screen and (max-width: 576px) {
     .habit-container{
         flex-direction: column;
+    }
+    .mile-container{
+        flex-direction: column;
+        gap: 30px;
     }
 }
