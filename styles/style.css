@@ -18,6 +18,7 @@ body{
 header{
     max-width: 80%;
     margin: 0 auto;
+    display: none;
 }
 .nav-container{
     display: flex;
@@ -98,4 +99,61 @@ header{
     height: 40px;
     background-color: tomato;
     border-radius: 50%;
+}
+
+/* main section styles here...  */
+
+.habit-section{
+    max-width: 80%;
+    margin: 80px auto;
+}
+.habit{
+    text-align: center;
+    color: antiquewhite;
+}
+.habit h2{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.habit p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.habit-title{
+    font-size: 38px;
+}
+.habit-content{
+    text-align: center;
+}
+.habit-content img{
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+}
+.habit-content h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.habit-content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habit-container{
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin-top: 50px;
+}
+
+/* responsive section starts here...  */
+@media screen and (max-width: 576px) {
+    .habit-container{
+        flex-direction: column;
+    }
 }
