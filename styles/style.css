@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,16 +12,24 @@
     font-variation-settings:
       "slnt" 0;
   }
+.allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 body{
     /* background-color: rgba(0, 0, 0, 0.95); */
     background-color: rgb(12, 12, 12);
 }
 header{
-    max-width: 80%;
-    margin: 0 auto;
+    
+    background-image: linear-gradient(to bottom right, rgb(17, 17, 17), rgba(119, 119, 119, 0));
     /* display: none; */
 }
 .nav-container{
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,7 +70,8 @@ header{
 
 
 .banner-container{
-    /* display: none; */
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
     gap: 80px;
     align-items: center;
