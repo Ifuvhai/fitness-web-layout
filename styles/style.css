@@ -24,7 +24,7 @@ body{
 }
 header{
     
-    background-image: linear-gradient(to bottom right, rgb(17, 17, 17), rgba(119, 119, 119, 0));
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0), rgba(40, 36, 36, 0.269));
     /* display: none; */
 }
 .nav-container{
@@ -392,6 +392,9 @@ footer{
 .extra-section{
     max-width: 82%;
     margin: 0px auto;
+    background-color: rgba(19, 20, 21, 0.642);
+    padding: 26px 0;
+    border-radius: 14px;
     color: rgba(230, 83, 60, 0.847);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
